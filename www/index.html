@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://griffis.edumedia.ca 'unsafe-eval';connect-src https://griffis.edumedia.ca;">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <title>Cordova Template</title>
+    </head>
+ 
+  
+    
+    <body>
+
+
+    <!-- Home Page -->
+    <div id="gameresults" class="page active" data-role="page">
+
+        <h2>Results</h2>
+        <section id="results" class="active">
+
+  
+        </section>
+
+    </div>
+
+    <div id="standings" class="page" data-role="page">
+
+        <h2>Standings</h2>
+
+        <table id="teamStandings">
+            <thead>
+                <tr>
+                    <th>Team</th>
+                    <th>W</th>
+                    <th>L</th>
+                    <th>T</th>
+                    <th>P</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+
+            </tbody>
+        </table>
+
+    </div>
+    
+    <section data-role="nav" id="nav">
+        <ul class="tabs">
+            <li><a id="nav_gameresults" href="#gameresults">Results</a></li>
+            <li><a id="nav_standings" href="#standings">Standings</a></li>
+        </ul>
+
+    </section>
+ <script type="text/javascript" src="cordova.js"></script>
+    <script src="js/index.js"></script>
+</body>
+    
+
+    
+</html>
